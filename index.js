@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
+import data from './data'
 import TweetContainer from './TweetContainer'
 import './style.css';
 
@@ -10,7 +11,7 @@ class App extends Component {
     return (
       <div>
        <h1>Tweets</h1>
-       <TweetContainer />
+       <TweetContainer data= { data }/>
       </div>
     );
   }
