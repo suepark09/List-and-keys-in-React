@@ -1,3 +1,34 @@
-h1, p {
+* {
   font-family: Lato;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+.tweet-container {
+  display: flex;
+  border: 1px lightgray solid;
+  border-radius: 3px; 
+  width: 400px;
+  padding: 10px;
+  margin: 10px; 
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px; 
+}
+
+.img-container {
+  padding: 5px; 
+}
+
+.post-container {
+  padding: 5px; 
+}
+
+li {
+  list-style: none;
 }
