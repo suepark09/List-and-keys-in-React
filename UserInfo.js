@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import UserPic from ''
 import './style.css';
 
 function UserInfo(props) {
