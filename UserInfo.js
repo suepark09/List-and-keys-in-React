@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import UserPic from ''
+import UserPic from './UserPic'
 import './style.css';
 
 function UserInfo(props) {
+  let userPic = props.userPic
   return (
      <li>
         <div className="tweet-container">
-           <div>
-              <img src={ props.userPic } width="80px"/>
-           </div>
+          <UserPic userPic= { userPic }/>
+      
            <div className="name-container">
                <h3>{ props.name }</h3>
                 <p style={{paddingTop: "3px", paddingLeft: "5px"}}>{ props.handle }</p>
