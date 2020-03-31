@@ -1,4 +1,5 @@
 import React from 'react';
+import UserInfo from './UserInfo'
 import './style.css';
 
 function TweetContainer(props) {
@@ -7,11 +8,7 @@ function TweetContainer(props) {
       <div className="img-container">
         <img src="https://media.giphy.com/media/iWkHDNtcHpB5e/giphy.gif" alt="cat" width="100px" />
       </div>
-      <div className="name-container">
-        <h3>Sue Park</h3>
-        <p>@suepark09</p>
-      </div>
-     
+      <UserInfo />
       
     </div>
   );

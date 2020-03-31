@@ -3,8 +3,14 @@
 }
 
 .tweet-container {
+  display: flex;
   border: 1px red solid;
   border-radius: 3px; 
-  width: 80%;
+  width: 60%;
   padding: 10px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row
 }
