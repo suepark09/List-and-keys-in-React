@@ -5,7 +5,7 @@ import './style.css';
 function TweetContainer(props) {
   let data = props.data;
   let tweets = data.map((user) => 
-    <UserInfo key={ user.id } name={ user.name } handle={ user.handle } userPic={ user.image } post={ user.post }/> 
+    <UserInfo key={ user.id } name={ user.name } handle={ user.handle } userPic={ user.image } post={ user.post } comment={ user.comments } retweet={ user.retweets } likes={ user.likes }/> 
   );
   return (
     <div>

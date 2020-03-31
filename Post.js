@@ -2,9 +2,7 @@ import React from 'react';
 
 function Post(props) {
   return (
-     <div className="post-container">
-        <p>{ props.post }</p>
-      </div>
+        <p className="post">{ props.post }</p>
   );
 }
 
