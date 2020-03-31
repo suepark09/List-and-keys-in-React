@@ -2,6 +2,10 @@
   font-family: Lato;
 }
 
+#root {
+  margin-top: 15px; 
+}
+
 h1 {
   margin-left: 50px;
 }
