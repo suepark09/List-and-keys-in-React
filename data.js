@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    image:
+    image: ""
     name: "Sue Park",
     handle: "@suepark09",
     post: "Here is a post!"
