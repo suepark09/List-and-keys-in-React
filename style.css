@@ -1,8 +1,10 @@
-h1, p {
+* {
   font-family: Lato;
 }
 
 .tweet-container {
   border: 1px red solid;
+  border-radius: 3px; 
   width: 80%;
+  padding: 10px;
 }
