@@ -13,7 +13,7 @@ function TweetContainer(props) {
       <div className="img-container">
         <img src="https://media.giphy.com/media/iWkHDNtcHpB5e/giphy.gif" alt="cat" width="100px" />
       </div>
-      // <UserInfo data= { data }/>
+      <UserInfo data= { data }/>
       
     </div>
   );
