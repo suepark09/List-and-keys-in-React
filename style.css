@@ -8,9 +8,14 @@
   border-radius: 3px; 
   width: 60%;
   padding: 10px;
+  margin: 10px; 
 }
 
 .name-container {
   display: flex;
   flex-direction: row
+}
+
+li {
+  list-style: none;
 }
