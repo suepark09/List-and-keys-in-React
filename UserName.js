@@ -1,10 +1,17 @@
 import React from 'react';
+import { Container, Row, Col} from 'react-bootstrap';
 
 function userName(props) {
   return(
     <div className="name-container">
-        <h3>{ props.name }</h3>
-        <p style={{paddingTop: "3px", paddingLeft: "5px"}}>{ props.handle }</p>
+
+        <Row>
+          <h5>{ props.name }</h5>
+        <p style={{paddingTop: "-1px", paddingLeft: "8px"}}>{ props.handle }</p>
+        </Row>
+        
+
+        
       </div>
   );
 }

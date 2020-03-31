@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import data from './data'
@@ -10,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-       <h1>Tweets</h1>
+       <h1>Le Tweets</h1>
        <TweetContainer data= { data }/>
       </div>
     );
